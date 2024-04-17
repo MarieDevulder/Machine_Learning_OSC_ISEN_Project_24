@@ -11,5 +11,5 @@ Les molécules donneuses et acceptrices dont on génère les SMILES (un schéma 
 Comme il est difficile de trouver les SMILES selon les articles, grâce à des API comme ```pubchem``` et à la librairie python ```rdkit``` nous avons élaboré un script python avec deux méthode de recherche de SMILES.
 
 Le fichier est dans le dossier ```Scrpits python```
-<li> ```methode_1()``` qui est la méthode qui utilise ```rdkit``` en construisant le SMILES par une image en *.sdf* (si vous n'avez que du JPG ou PNG il faut passer par un convertisseur). Le chemin de l'image est un intégrer directement dans le code à la ligne 23 : ```smiles_list.append(get_smiles_from_sdf('img/VOTRE-MOLECULE-EN-SDF'))``` et le nom de votre molécule à la ligne d'en dessous ```smiles_names.append('NOM-DE-VOTRE-MOLECULE')```
+<li> ```methode_1()``` qui est la méthode qui utilise ```rdkit``` en construisant le SMILES par une image en *.sdf* (si vous n'avez que du JPG ou PNG il faut passer par un convertisseur). Le chemin de l'image est un intégrer directement dans le code à la ligne 23 : ```smiles_list.append(get_smiles_from_sdf('img/VOTRE-MOLECULE-EN-SDF'))``` et le nom de votre molécule à la ligne d'en dessous ```smiles_names.append('NOM-DE-VOTRE-MOLECULE')``` </li>
 
