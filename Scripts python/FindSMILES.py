@@ -23,9 +23,6 @@ def methode_1():
     smiles_list.append(get_smiles_from_sdf('img/PTB7-Th-sdf'))
     smiles_names.append('PTB7-Th')
 
-    smiles_list.append(get_smiles_from_sdf('img/sdf'))
-    smiles_names.append('PDCBT')
-
     # Affichage des SMILES
     for smiles in smiles_list:
         print("\n .......... USING SDF TO GET SMILES ..........")
